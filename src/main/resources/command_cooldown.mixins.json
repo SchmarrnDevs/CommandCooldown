@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.schmarrn.command_cooldown.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandMixin",
+    "Tick"
+  ],
+  "client": [],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

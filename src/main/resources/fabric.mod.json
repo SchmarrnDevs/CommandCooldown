@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "command_cooldown",
+  "version": "${version}",
+  "name": "Command Cooldown",
+  "description": "Adds configurable cooldown to commands",
+  "authors": [
+    "andi_makes"
+  ],
+  "contact": {
+    "sources": "https://github.com/SchmarrnDevs/CommandCooldown"
+  },
+  "license": "Unlicense",
+  "icon": "assets/command_cooldown/icon.png",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20"
+  },
+  "mixins": [
+    "command_cooldown.mixins.json"
+  ]
+}
